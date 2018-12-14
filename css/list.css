@@ -1,0 +1,66 @@
+header{
+    width: 100%;
+    height: 0.95rem;
+    padding-left: 0.24rem;
+    padding-right: 0.24rem;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+header .left{
+    width: 0.94rem;
+    height: 100%;
+    margin-left: 0.32rem;
+}
+header .left .tu{
+    width: 100%;
+    height: 0.3rem;
+    margin-top: 0.33rem;
+    display: flex;
+}
+header .left .tu img{
+    width: 100%;
+    height: 100%;
+}
+header .add{
+    width: 0.9rem;
+    height: 0.95rem;
+    margin-left: 0.15rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.95rem;
+    color: #333;
+}
+header .add .icon-xiajiantou{
+    font-size: 0.24rem;
+    color: #333;
+}
+header input{
+    margin-left: 1rem;
+    width: 3rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    margin-top: 0.16rem;
+    background: #f5f5f5;
+    border: none;
+    padding-left: 0.7rem;
+    outline: none;
+    background-image: url('../img/sousuo.png');
+    background-size: 0.3rem 0.3rem;
+    background-repeat: no-repeat;
+    background-position: 0.32rem 0.16rem;
+    font-size: 0.28rem;
+}
+header .right{
+    width: 0.47rem;
+    height: 100%;
+    margin-left: 0.3rem;
+    display: flex;
+}
+header .right .icon-erweima{
+    font-size: 0.47rem;
+    line-height: 0.95rem;
+    color: #999698;
+}
